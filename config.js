@@ -4,27 +4,28 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.password = 'janith'
-global.owner = process.env.OWNER_NUMBER || ("94767438882") //Your Number
+global.owner = process.env.OWNER_NUMBER || ("4915147775878") //Your Number
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://nilunilu:janith1234@cluster0.zluxwdv.mongodb.net/?retryWrites=true&w=majority" //Ur Mongodb URI
 global.port= process.env.PORT || 5000
-global.email = 'Queennilu@gmail.com' // ur Email
-global.github = 'https://github.com/Jnaithsadanuwan/QueenNilu' //Github
+global.email = 'atlanticrecords221@gmail.com' // ur Email
+global.github = 'https://github.com/H3L7BOY/QueenNilu' //Github
 global.location = 'Kandy LK'
-global.gurl = 'https://instagram.com/janithsadanuwan' // add your username
-global.sudo = process.env.SUDO || '94767438882'
-global.devs = '94767438882';
+global.gurl = 'https://instagram.com/h3l7boy' // add your username
+global.sudo = process.env.SUDO || '+48888888889'
+global.devs = '+4915147775878';
 global.website = 'https://janithsadanuwan.tech/QueenNilu' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://graph.org/file/1b099040322e0649a9192.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/RQixsxS.jpeg'
 module.exports = {
   NILU: process.env.NILU_PASSWORD === undefined ? 'janith' : process.env.NILU_PASSWORD,
   LANG: process.env.THEME|| 'EN', //Change Language 
-  botname: process.env.BOT_NAME || 'Queen Nilu', //Bot Name
-  alivelogo: process.env.ALIVE_LOGO || 'https://te.legra.ph/file/a9293226a7c660ecbfffb.jpg', //Alive Logo
-  ownername:process.env.OWNER_NAME || 'Jnaith sadanuwan',
+  botname: process.env.BOT_NAME || 'katsuki', //Bot Name
+  alivelogo: process.env.ALIVE_LOGO || 'https://i.imgur.com/RQixsxS.jpeg', //Alive Logo
+  ownername:process.env.OWNER_NAME || 'infernö katsumí',
   sessionName: process.env.SESSION_ID || '',
-  author: process.env.PACK_INFO || (";")[0] || 'Queen Nilu 💃', 
+  author: process.env.PACK_INFO || (";")[0] || 'Katsuki +49', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname: process.env.PACK_INFO || (";")[1] || 'Queen Nilu 💃', 
+  packname: process.env.PACK_INFO || (";")[1] || 'Katsuki +49 ',
+	
   autoreaction: process.env.AUTO_REACTION || 'off',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
   alwaysonline: process.env.ALWAYS_ONLINE || 'false',
