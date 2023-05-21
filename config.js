@@ -39,7 +39,7 @@ module.exports = {
   antilinkaction: process.env.ANTILINK_ACTION || 'remove',
   BRANCH: 'main',
   ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '',
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'OPENAI_KEY',
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || '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',
   VERSION: process.env.VERSION === undefined ? 'v.2.0.0' : process.env.VERSION,
   WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
